@@ -2,13 +2,15 @@
 marp: true
 theme: custom
 paginate: true
-header: "**Product Documentation — v1.0**"
+header: "Product Documentation — v1.0"
 footer: "23f3000151@ds.study.iitm.ac.in"
 ---
 
+<!-- marp: true -->
 <!-- class: lead -->
+<!-- size: 16:9 -->
+<!-- theme: custom -->
 <!-- paginate: true -->
-<!-- backgroundColor: black -->
 
 # Product Documentation  
 ### Marp Presentation  
@@ -18,18 +20,18 @@ footer: "23f3000151@ds.study.iitm.ac.in"
 
 # Overview
 
-- Markdown-based documentation
-- Git version control friendly  
-- Export to PDF / PPTX / HTML  
-- Custom styling & themes  
+- Markdown-based documentation  
+- Git-friendly  
+- Export to PDF, PPTX, HTML  
+- Custom theme + directives  
 
 ---
 
-<!-- Custom theme definition -->
+<!-- Custom theme -->
 <style>
 :root {
-  --main-color: #0a84ff;
-  --accent-color: #003b99;
+  --brand-color: #0a84ff;
+  --secondary-color: #004c99;
 }
 
 section {
@@ -37,14 +39,14 @@ section {
 }
 
 h1 {
-  color: var(--main-color);
+  color: var(--brand-color);
 }
 
 h2 {
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
-.custom-box {
+.box {
   background: #1a1a1a;
   color: white;
   padding: 24px;
@@ -54,39 +56,36 @@ h2 {
 
 # Algorithmic Complexity
 
-We analyze complexity using:
+We analyze performance using:
 
 $$
 T(n) = O(n \log n)
 $$
 
-Examples:
-- Merge Sort  
-- Heap Sort  
+Examples: Merge Sort, Heap Sort
 
 ---
 
 <!-- background: https://images.unsplash.com/photo-1504384308090-c894fdcc538d -->
 
-# System Architecture  
-### (Slide with Background Image)
+# Architecture Overview  
+### Background Image Slide
 
 - API Gateway  
-- Processing Engine  
+- Compute Engine  
 - Storage Layer  
 
 ---
 
-# Custom Styled Slide
+# Custom Styled Block
 
-<div class="custom-box">
-  <h2>Custom CSS Section</h2>
-  <p>This slide uses a custom theme + styling.</p>
+<div class="box">
+  <h2>Dark Styled Container</h2>
+  <p>This uses custom CSS with a Marp theme.</p>
 </div>
 
 ---
 
 # Contact
 
-📧 **23f3000151@ds.study.iitm.ac.in**  
-For documentation updates or support.
+📧 **23f3000151@ds.study.iitm.ac.in**
