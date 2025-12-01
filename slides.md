@@ -48,7 +48,13 @@ $$
 
 ---
 
-<!-- _background: https://images.unsplash.com/photo-1504384308090-c894fdcc538d -->
+---
+
+<!-- _background: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d" -->
+
+# Background Image Slide
+
+This slide uses a Marp-compliant background image directive.
 
 # Architecture Overview  
 ### Background Image Slide
@@ -71,5 +77,6 @@ $$
 # Contact
 
 📧 **23f3000151@ds.study.iitm.ac.in**
+
 
 
