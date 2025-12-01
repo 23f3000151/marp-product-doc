@@ -6,9 +6,9 @@
 title: Product Documentation
 author: 23f3000151@ds.study.iitm.ac.in
 marp: true
+paginate: true
 header: "Product Docs — v1.0"
 footer: "23f3000151@ds.study.iitm.ac.in"
-paginate: true
 ---
 
 <style>
@@ -26,14 +26,14 @@ h2 { color: #004c99; }
 </style>
 
 # Product Documentation  
-**By:** 23f3000151@ds.study.iitm.ac.in
+**Author:** 23f3000151@ds.study.iitm.ac.in
 
 ---
 
 # Overview
 
-- Version-controlled documentation  
-- Marp-based slides  
+- Git-friendly documentation  
+- Marp for slides  
 - Custom themes  
 - Math support  
 - Background images  
@@ -48,21 +48,22 @@ $$
 
 ---
 
-<!-- background: https://images.unsplash.com/photo-1504384308090-c894fdcc538d -->
+<!-- _background: https://images.unsplash.com/photo-1504384308090-c894fdcc538d -->
 
-# Architecture Overview (Background Image)
+# Architecture Overview  
+### Background Image Slide
 
 - API Gateway  
-- Compute Core  
+- Compute Engine  
 - Storage Layer  
 
 ---
 
-# Custom Styled Block
+# Custom Styled Section
 
 <div class="bigbox">
-  <h2>Styled using CSS + Marp Directives</h2>
-  <p>This proves custom styling works.</p>
+  <h2>Styled Using Custom CSS</h2>
+  <p>This block demonstrates custom theme and styles.</p>
 </div>
 
 ---
