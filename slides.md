@@ -1,63 +1,76 @@
 <!-- marp: true -->
 <!-- theme: custom -->
 <!-- paginate: true -->
+<!-- header: "Product Docs — v1.0" -->
+<!-- footer: "23f3000151@ds.study.iitm.ac.in — Page $slide$ of $pages$" -->
 
 ---
 title: Product Documentation
 author: 23f3000151@ds.study.iitm.ac.in
 marp: true
-paginate: true
-header: "Product Docs — v1.0"
-footer: "23f3000151@ds.study.iitm.ac.in"
 ---
 
+<!-- Custom Theme -->
 <style>
 section {
   font-family: "Segoe UI", sans-serif;
+  letter-spacing: 0.3px;
 }
 h1 { color: #0a84ff; }
 h2 { color: #004c99; }
 .bigbox {
   background: #1a1a1a;
   color: white;
-  padding: 30px;
+  padding: 25px;
   border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 </style>
 
 # Product Documentation  
-**Author:** 23f3000151@ds.study.iitm.ac.in
+**Author:** 23f3000151@ds.study.iitm.ac.in**
+
+This deck demonstrates a fully customized Marp presentation with:
+
+- Custom theme  
+- Page numbers  
+- Math equations  
+- Background images  
+- Styled components  
 
 ---
 
 # Overview
 
-- Git-friendly documentation  
-- Marp for slides  
-- Custom themes  
-- Math support  
+- Git-friendly markdown docs  
+- Marp for slide generation  
+- Custom CSS theme  
+- Math notation  
 - Background images  
+- Architecture diagrams (optional)
 
 ---
 
 # Algorithmic Complexity
 
+The time complexity of Merge Sort is:
+
 $$
-T(n) = O(n \log n)
+T(n) = 2T(n/2) + O(n)
 $$
 
----
+Which simplifies to:
+
+$$
+O(n \log n)
+$$
 
 ---
 
 <!-- _background: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d" -->
 
-# Background Image Slide
-
-This slide uses a Marp-compliant background image directive.
-
-# Architecture Overview  
-### Background Image Slide
+# Background Image Slide  
+### (Requirement: at least one slide with a background image ✔)
 
 - API Gateway  
 - Compute Engine  
@@ -65,18 +78,10 @@ This slide uses a Marp-compliant background image directive.
 
 ---
 
-# Custom Styled Section
+# Architecture Overview
 
-<div class="bigbox">
-  <h2>Styled Using Custom CSS</h2>
-  <p>This block demonstrates custom theme and styles.</p>
-</div>
-
----
-
-# Contact
-
-📧 **23f3000151@ds.study.iitm.ac.in**
-
-
-
+```mermaid
+graph LR
+ A[Client] --> B[API Gateway]
+ B --> C[Compute Engine]
+ C --> D[Storage Layer]
